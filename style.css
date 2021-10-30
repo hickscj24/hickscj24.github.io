@@ -16,12 +16,13 @@ h1 {
     text-align: left;
     color: white;
     padding-left: 15px;
-    
+    margin-bottom: 30px;
 }
 
 h2 {
     font-size: 200%;
     text-align: left;
+    margin: 10px;
 }
 
 .nav-menu {
@@ -30,6 +31,7 @@ h2 {
     font-size: 20px;
     display: table;
     flex-direction: column;
+   
 }
 nav ul {
     margin: 0;
@@ -59,6 +61,7 @@ nav-menu a::before {
 p {
     font-size: 120%;
     line-height: 1.75;
+    margin: 10px;
 }
 a {
     color: rgba(55, 75, 253, 0.993);
@@ -92,6 +95,7 @@ margin: 40px 30px 40px 30px;
 align-items: center;
 position: relative;
 
+
 }
 
 
@@ -102,6 +106,8 @@ position: relative;
     margin-bottom: 20px;
     border-radius: 15px;
     box-shadow: 15px 10px rgba(54, 2, 85, 0.527);
+    margin-top: 20px;
+    
     
 }
 
@@ -112,4 +118,20 @@ border-color: rgba(54, 2, 85, 0.527);
 box-shadow: 10px 10px 15px rgba(63, 63, 63, 0.973);
 margin: 10px 20px 40px 30px;
 
+}
+
+
+
+#flex-section {
+    text-align: center;
+    flex-flow: column wrap;
+
+}
+
+figure {
+    display: inline-block;
+}
+
+#work-header {
+padding-top: 20px;
 }
